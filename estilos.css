@@ -1,0 +1,130 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: "Space Mono";
+    margin-left: 15px;
+  }
+
+  .welcome{
+    display: grid;
+    grid-template-columns: auto ;
+    width: 100%;
+  }
+
+  picture{
+    display: grid;
+    margin-top: 30px;
+  }
+  
+  img{
+    justify-self: left;
+  }
+
+  .error{
+    margin-top: 20px;
+    color: #333333;
+    font-family: 'Inconsolata';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+  }
+
+  .parrafo{
+    margin-top: 25px;
+    color: #4F4F4F;
+    width: 350px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: -0.035em;
+  }
+
+  .titulo-aviso{
+    width: 350px;
+    color:#333333;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: -0.035em;
+  }
+
+  .boton{
+    margin-top: 60px;
+    width: 200px;
+    height: 65px;
+    font-family: monospace;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: -0.035em;
+    background-color: #333333;
+    color: aliceblue;
+    cursor: pointer;
+  }
+
+  .pie{
+    width: 100%;
+    position:fixed; 
+    bottom:20px;
+    }
+
+  .footer{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+
+  }
+
+  @media(min-width: 650px){
+    .welcome{
+      display: grid;
+      grid-template-columns:auto auto;
+      margin-top:100px;
+    }
+    .titulo-aviso{
+      width: 500px;
+      margin-top: 20px;
+    }
+    .aviso{
+      margin-left: 20px;
+    }
+
+    .imagen{
+  margin-left: 10px;
+        }
+    .parrafo{
+      width: 280px;
+      margin-top: 30px;
+    }
+    img{
+      justify-self: center;
+      width: 500px;
+      height: 398px;
+    }
+
+    .error{
+      margin-left: 40px;
+      margin-top: 40px;
+    }
+    .boton{
+      margin-top: 50px;
+    }
+    .footer{
+      text-align: center;
+    }
+  }
+
+
